@@ -1,4 +1,4 @@
-- name: start an instance 
+- name: positive2
   amazon.aws.ec2_instance:
     name: "public-instance"
     vpc_subnet_id: subnet-5calable
